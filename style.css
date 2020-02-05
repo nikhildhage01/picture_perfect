@@ -1,0 +1,153 @@
+#container-header{
+	background-color: cyan;
+}
+#container-header a{
+	text-decoration: none;
+	
+}
+
+#nb li a:hover{
+	background-color:blue !important;
+	color: black;
+	border-radius: 10px;
+}
+#ul a{
+	color: white;
+}
+#header{
+	height: 400px;
+	background-image: url('bg.jpg');
+	background-size:auto ;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+#header h1{
+	text-align: center;
+	color: white;
+	margin-top:180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#btn{
+	margin-left: 50%;
+}
+#section{
+	background-color: #ebebeb;
+	height: 400px;
+}
+
+#section-header{
+	text-align: center;
+	width: 100%;
+	margin-top:20px;
+}
+#section hr{
+	width: 100px;
+	border: 2px solid;
+	
+}
+#img{
+	width: 35%;
+	height: 55%;
+	margin-left:50px;
+	image-rendering: auto;
+}
+#copy{
+	margin-left: 70px;
+}
+#content{
+	font-family: sans-serif;
+}
+#pictures{
+	background-color: #ebebeb;
+	
+}
+.body{
+	background-color: rgb(62, 52, 63);
+}
+#pictures{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 4px;
+}
+#pictures img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	margin-block-end: 20px;
+}
+#col{
+	flex: 50%;
+    padding: 0 4px;
+}
+#main-content-header{
+	background-color:#ebebeb;
+}
+#main-content-header h1{
+	text-align: center;
+	color: black;
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer{
+	height: 30px;
+	background-color: rgb(49, 54, 54);
+}
+#footer p{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	color: white;
+	margin:auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+#mine-picture{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 4px;
+	padding-top: 20px;
+	background-color: #ebebeb;
+}
+#mine-picture img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	margin-block-end: 20px;
+}
+#edu-details h1{
+	text-align: left;
+	width: 100%;
+	height: auto;
+	margin-top:20px;
+	margin-left: 20px;
+}
+#edu-details{
+	background-color:#c9c9c9;
+	padding-left: 20px;
+}
+#divider{
+	border: 2px solid;
+	background-color: #c9c9c9;
+}
+#form input,textarea{
+	margin-top: 20px;
+	margin-left: 50px;
+	
+}
+#form{
+	background-color: #ebebeb;
+	height: 400px;
+}
